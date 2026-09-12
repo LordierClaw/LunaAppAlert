@@ -2,6 +2,12 @@
 
 Ảnh chụp từ emulator API 37. Hai “Ứng dụng thử” là ứng dụng độc lập phục vụ kiểm thử; các ứng dụng hệ thống trong màn hình chọn app là dữ liệu có sẵn của emulator. Tên ứng dụng lấy từ Android, nội dung App Alert dùng tiếng Việt.
 
+Android 16/API 36, bản release bàn giao đã kiểm tra:
+
+| Trang chủ Android 16 | Cảnh báo sau một phút thật |
+|---|---|
+| ![Android 16](screenshots/14-android16-home.png) | ![Overlay Android 16](screenshots/15-android16-timed-overlay.png) |
+
 | Chào mừng | Quyền hệ thống |
 |---|---|
 | ![Chào mừng](screenshots/00-welcome.png) | ![Quyền hệ thống](screenshots/system-access.png) |

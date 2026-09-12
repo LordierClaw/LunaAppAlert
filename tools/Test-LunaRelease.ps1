@@ -1,5 +1,5 @@
 param(
-    [ValidateSet(26,35,37)][int]$Api = 37,
+    [ValidateSet(26,35,36,37)][int]$Api = 37,
     [string]$Serial = 'emulator-5554',
     [string]$Sdk = $env:ANDROID_HOME,
     [string]$SigningDirectory = (Join-Path $env:USERPROFILE '.android/lunaappalert-signing')

@@ -4,7 +4,7 @@
 
 ## Cài đặt và sử dụng
 
-1. Cài APK đã ký từ phần bàn giao. Thiết bị cần Android 8.0/API 26 trở lên.
+1. Cài APK đã ký từ [Releases](https://github.com/LordierClaw/LunaAppAlert/releases) hoặc phần bàn giao. Thiết bị cần Android 8.0/API 26 trở lên; phiên bản ưu tiên là Android 16/API 36.
 2. Mở **App Alert → Thiết lập App Alert** và bật **Truy cập sử dụng ứng dụng** trong Cài đặt Android.
 3. Khi dùng cảnh báo phủ màn hình, bật **Hiển thị trên ứng dụng khác**. Cấp quyền thông báo khi dùng cảnh báo thông báo.
 4. Thêm ứng dụng đã cài, tùy chọn tạo nhóm, rồi thêm quy tắc cho nhóm hoặc riêng ứng dụng.
@@ -48,6 +48,16 @@ APK debug: `app/build/outputs/apk/debug/app-debug.apk`. GitHub Actions cũng bui
 ## Kiểm thử E2E
 
 Mô-đun `test-target` tạo hai ứng dụng thử độc lập; không được đóng gói trong APK App Alert. Kiểm thử dùng UI Automator để thao tác màn hình hệ thống, ứng dụng đích, thông báo và overlay thật.
+
+Chạy nhanh luồng chính trên Android 16:
+
+```powershell
+.\tools\Setup-LunaEmulators.ps1 -Apis 36
+.\tools\Start-LunaEmulator.ps1 -Api 36
+.\tools\Test-LunaE2E.ps1 -Api 36
+```
+
+Bộ kiểm thử mở rộng:
 
 ```powershell
 .\tools\Setup-LunaEmulators.ps1

@@ -2,6 +2,8 @@
 
 Báo cáo này phân biệt kiểm thử đã thực thi với các ca mới được định nghĩa. Mã nguồn dùng package `dev.lordierclaw.lunaappalert`, min SDK 26, compile/target SDK 37. Hai ứng dụng thử là `dev.lordierclaw.fixture.alpha` và `dev.lordierclaw.fixture.beta`.
 
+**Ưu tiên Android 16/API 36:** APK release cuối đã đạt luồng E2E thời gian thật trong **250,430 giây**. Luồng này xác nhận cấp quyền qua Settings, tạo nhóm/ứng dụng/quy tắc, ghi đè, thông báo và overlay thật, một phút liên tục, một lần lặp, Tiếp tục/Thoát và khôi phục quyền. Đây là lượt xác nhận tập trung theo yêu cầu bàn giao nhanh; ma trận mở rộng API 26/35/37 bên dưới đã hoàn tất trước đó.
+
 ## Build và bộ xử lý quy tắc
 
 Đã chạy thành công trên Windows với Gradle 9.6, AGP 9.4 và JDK 25:
@@ -21,6 +23,8 @@ Lint không có lỗi, còn 28 cảnh báo về cách khai báo, tài nguyên v�
 | ForegroundReducerTest | 14 | Loại sự kiện trùng, Home, app cấu hình, bàn phím, khôi phục trước API 28 và biên thời gian |
 
 Báo cáo máy tạo: `app/build/test-results/testDebugUnitTest/` và `app/build/reports/`.
+
+GitHub Actions đã build, chạy lint/unit test và lưu artifact `android-build-and-reports` thành công trên Ubuntu: [lượt CI của mã ứng dụng bàn giao](https://github.com/LordierClaw/LunaAppAlert/actions/runs/34686428405). Khóa ký release không được đưa lên CI.
 
 ## Dữ liệu trên Android
 
@@ -67,11 +71,12 @@ Chính APK release đã ký, không sửa đổi giữa các lần cài, đã đ
 
 | API | Thời gian thực thi | Kết quả |
 |---|---:|---|
+| **36 — Android 16** | **250,430 giây** | **Đạt** |
 | 26 | 217,690 giây | Đạt |
 | 35 | 223,178 giây | Đạt |
 | 37 | 216,956 giây | Đạt |
 
-SHA-256 của APK trên cả ba máy:
+SHA-256 của APK trên cả bốn máy:
 
 ```text
 5022ad107a0f88ebebf8fd9f9c48487d725a7419caa53af5e80096ce49fe68e4

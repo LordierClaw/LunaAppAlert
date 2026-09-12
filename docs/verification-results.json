@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T16:40:05.2859458+07:00",
+  "generatedAt": "2026-09-12T16:52:51.7029916+07:00",
   "applicationId": "dev.lordierclaw.lunaappalert",
   "version": "1.0",
   "releaseSha256": "5022ad107a0f88ebebf8fd9f9c48487d725a7419caa53af5e80096ce49fe68e4",
@@ -366,5 +366,22 @@
       "externalProcessDeathAndReboot": "passed"
     }
   ],
-  "limitations": "Emulator evidence only; no physical-device/OEM guarantee. Raw device data and signing credentials are excluded from Git."
+  "limitations": "Emulator evidence only; no physical-device/OEM guarantee. Raw device data and signing credentials are excluded from Git.",
+  "priorityAndroid16": {
+    "api": 36,
+    "device": "Android Emulator x86_64",
+    "signedRelease": {
+      "report": "artifacts/release-e2e/api36/instrumentation.txt",
+      "tests": 1,
+      "seconds": 250.43,
+      "result": "passed"
+    },
+    "testedReleaseSha256": "5022ad107a0f88ebebf8fd9f9c48487d725a7419caa53af5e80096ce49fe68e4",
+    "scope": "Focused real timed release journey requested for Android 16."
+  },
+  "ci": {
+    "result": "passed",
+    "url": "https://github.com/LordierClaw/LunaAppAlert/actions/runs/34686428405",
+    "applicationSourceCommit": "e5dfd192cd6ffecd7d42911939af514d2511ce4a"
+  }
 }

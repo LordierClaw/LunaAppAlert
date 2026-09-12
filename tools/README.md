@@ -2,6 +2,8 @@
 
 Run these PowerShell commands from the project directory. `ANDROID_HOME` should point to the SDK configured in Android Studio. Install **Android SDK Command-line Tools (latest)** through SDK Manager if it is missing.
 
+Android 16/API 36 is the delivery priority. Use `Setup-LunaEmulators.ps1 -Apis 36`, then pass `-Api 36` to the start/test scripts. The same tooling also supports API 26, 35 and 37 for the already completed broader verification.
+
 ```powershell
 ./tools/Setup-LunaEmulators.ps1
 ./tools/Start-LunaEmulator.ps1 -Api 37

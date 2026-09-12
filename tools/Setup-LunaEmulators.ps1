@@ -1,5 +1,5 @@
 param(
-    [ValidateSet(26,35,37)][int[]]$Apis = @(37,35,26),
+    [ValidateSet(26,35,36,37)][int[]]$Apis = @(37,35,26),
     [string]$Sdk = $env:ANDROID_HOME
 )
 $ErrorActionPreference = 'Stop'
