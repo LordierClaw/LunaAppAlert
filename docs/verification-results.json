@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2026-09-12T16:40:05.2859458+07:00",
+  "applicationId": "dev.lordierclaw.lunaappalert",
+  "version": "1.0",
+  "releaseSha256": "5022ad107a0f88ebebf8fd9f9c48487d725a7419caa53af5e80096ce49fe68e4",
+  "unitSuites": [
+    {
+      "name": "dev.lordierclaw.lunaappalert.core.DailyUsageTrackerTest",
+      "tests": 9,
+      "result": "passed"
+    },
+    {
+      "name": "dev.lordierclaw.lunaappalert.core.ForegroundReducerTest",
+      "tests": 14,
+      "result": "passed"
+    },
+    {
+      "name": "dev.lordierclaw.lunaappalert.core.RuleEvaluatorTest",
+      "tests": 14,
+      "result": "passed"
+    },
+    {
+      "name": "dev.lordierclaw.lunaappalert.core.RuleResolverTest",
+      "tests": 13,
+      "result": "passed"
+    },
+    {
+      "name": "dev.lordierclaw.lunaappalert.core.SessionTrackerTest",
+      "tests": 7,
+      "result": "passed"
+    }
+  ],
+  "lint": {
+    "errors": 0,
+    "warnings": 28
+  },
+  "emulators": [
+    {
+      "api": 26,
+      "device": "Android Emulator x86_64",
+      "deviceChecks": [
+        {
+          "report": "artifacts/e2e/api26/instrumentation.txt",
+          "tests": 1,
+          "seconds": 213.073,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/instrumentation-LunaConfigUITest.txt",
+          "tests": 1,
+          "seconds": 44.049,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/instrumentation-LunaRuleCrudTest.txt",
+          "tests": 1,
+          "seconds": 36.66,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/instrumentation-RepositoryTest.txt",
+          "tests": 9,
+          "seconds": 0.44,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/instrumentation-LunaVisualTest.txt",
+          "tests": 1,
+          "seconds": 41.726,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/instrumentation-LunaOverlayTest.txt",
+          "tests": 1,
+          "seconds": 9.358,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/instrumentation-UsageObserverTest.txt",
+          "tests": 1,
+          "seconds": 30.008,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/small-screen/LunaVisualTest.txt",
+          "tests": 1,
+          "seconds": 56.964,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/small-screen/LunaOverlayTest.txt",
+          "tests": 1,
+          "seconds": 9.762,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/notifications-denied.txt",
+          "tests": 1,
+          "seconds": 13.97,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/notifications-restored.txt",
+          "tests": 1,
+          "seconds": 9.658,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/lifecycle-lock.txt",
+          "tests": 1,
+          "seconds": 12.197,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/lifecycle-removed.txt",
+          "tests": 1,
+          "seconds": 5.172,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/lifecycle-reinstalled.txt",
+          "tests": 1,
+          "seconds": 9.662,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/recovery-force_stop.txt",
+          "tests": 1,
+          "seconds": 10.809,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api26/recovery-host_verified.txt",
+          "tests": 1,
+          "seconds": 7.196,
+          "result": "passed"
+        }
+      ],
+      "signedRelease": {
+        "report": "artifacts/release-e2e/api26/instrumentation.txt",
+        "tests": 1,
+        "seconds": 217.69,
+        "result": "passed"
+      },
+      "testedReleaseSha256": "5022ad107a0f88ebebf8fd9f9c48487d725a7419caa53af5e80096ce49fe68e4",
+      "externalProcessDeathAndReboot": "passed"
+    },
+    {
+      "api": 35,
+      "device": "Android Emulator x86_64",
+      "deviceChecks": [
+        {
+          "report": "artifacts/e2e/api35/instrumentation.txt",
+          "tests": 1,
+          "seconds": 222.268,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/instrumentation-LunaConfigUITest.txt",
+          "tests": 1,
+          "seconds": 43.498,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/instrumentation-LunaRuleCrudTest.txt",
+          "tests": 1,
+          "seconds": 37.748,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/instrumentation-RepositoryTest.txt",
+          "tests": 9,
+          "seconds": 0.361,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/instrumentation-LunaVisualTest.txt",
+          "tests": 1,
+          "seconds": 40.756,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/instrumentation-LunaOverlayTest.txt",
+          "tests": 1,
+          "seconds": 9.53,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/instrumentation-UsageObserverTest.txt",
+          "tests": 1,
+          "seconds": 30.077,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/small-screen/LunaVisualTest.txt",
+          "tests": 1,
+          "seconds": 58.267,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/small-screen/LunaOverlayTest.txt",
+          "tests": 1,
+          "seconds": 9.373,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/notifications-denied.txt",
+          "tests": 1,
+          "seconds": 14.01,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/notifications-restored.txt",
+          "tests": 1,
+          "seconds": 9.498,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/lifecycle-lock.txt",
+          "tests": 1,
+          "seconds": 12.599,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/lifecycle-removed.txt",
+          "tests": 1,
+          "seconds": 4.11,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/lifecycle-reinstalled.txt",
+          "tests": 1,
+          "seconds": 11.221,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/recovery-force_stop.txt",
+          "tests": 1,
+          "seconds": 9.441,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api35/recovery-host_verified.txt",
+          "tests": 1,
+          "seconds": 6.849,
+          "result": "passed"
+        }
+      ],
+      "signedRelease": {
+        "report": "artifacts/release-e2e/api35/instrumentation.txt",
+        "tests": 1,
+        "seconds": 223.178,
+        "result": "passed"
+      },
+      "testedReleaseSha256": "5022ad107a0f88ebebf8fd9f9c48487d725a7419caa53af5e80096ce49fe68e4",
+      "externalProcessDeathAndReboot": "passed"
+    },
+    {
+      "api": 37,
+      "device": "Android Emulator x86_64",
+      "deviceChecks": [
+        {
+          "report": "artifacts/e2e/api37/instrumentation.txt",
+          "tests": 1,
+          "seconds": 220.197,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/instrumentation-LunaConfigUITest.txt",
+          "tests": 1,
+          "seconds": 45.796,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/instrumentation-LunaRuleCrudTest.txt",
+          "tests": 1,
+          "seconds": 40.64,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/instrumentation-RepositoryTest.txt",
+          "tests": 9,
+          "seconds": 0.262,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/instrumentation-LunaVisualTest.txt",
+          "tests": 1,
+          "seconds": 43.771,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/instrumentation-LunaOverlayTest.txt",
+          "tests": 1,
+          "seconds": 10.411,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/instrumentation-UsageObserverTest.txt",
+          "tests": 1,
+          "seconds": 30.085,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/small-screen/LunaVisualTest.txt",
+          "tests": 1,
+          "seconds": 57.617,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/small-screen/LunaOverlayTest.txt",
+          "tests": 1,
+          "seconds": 9.692,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/notifications-denied.txt",
+          "tests": 1,
+          "seconds": 13.885,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/notifications-restored.txt",
+          "tests": 1,
+          "seconds": 8.431,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/lifecycle-lock.txt",
+          "tests": 1,
+          "seconds": 11.659,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/lifecycle-removed.txt",
+          "tests": 1,
+          "seconds": 4.139,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/lifecycle-reinstalled.txt",
+          "tests": 1,
+          "seconds": 10.495,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/recovery-force_stop.txt",
+          "tests": 1,
+          "seconds": 9.833,
+          "result": "passed"
+        },
+        {
+          "report": "artifacts/e2e/api37/recovery-host_verified.txt",
+          "tests": 1,
+          "seconds": 6.526,
+          "result": "passed"
+        }
+      ],
+      "signedRelease": {
+        "report": "artifacts/release-e2e/api37/instrumentation.txt",
+        "tests": 1,
+        "seconds": 216.956,
+        "result": "passed"
+      },
+      "testedReleaseSha256": "5022ad107a0f88ebebf8fd9f9c48487d725a7419caa53af5e80096ce49fe68e4",
+      "externalProcessDeathAndReboot": "passed"
+    }
+  ],
+  "limitations": "Emulator evidence only; no physical-device/OEM guarantee. Raw device data and signing credentials are excluded from Git."
+}
